@@ -167,6 +167,8 @@ int main() {
 	printf("--------------------------------------------\n\n");
 
 	dezalocare(&moreClients, &nrClienti);
+	printf("Vector dupa dezalocare:\n");
+	afisareVector(moreClients, nrClienti);
 
 	return 0;
 }
