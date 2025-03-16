@@ -101,10 +101,21 @@ void adaugaMasinaInVector(Masina** masini, int* nrMasini, Masina masinaNoua) {
 	strcpy_s(aux[(*nrMasini)].numeSofer, strlen(masinaNoua.numeSofer) + 1, masinaNoua.numeSofer);
 
 	//dezalocareVectorMasini(masini, nrMasini);
+	//free(*masini);
+
+	for (int i = 0; i < (*nrMasini); i++) {
+		free((*masini)[i].model);
+		free((*masini)[i].numeSofer);
+	}
 	free(*masini);
 	(*masini) = aux;
 
 	(*nrMasini)++;
+
+	//for (int i = 0; i < *nrMasini; i++) {
+	//	afisareMasina((*masini)[i]);
+	//	printf("\nNew Iteration ----------------------------\n");
+	//}
 }
 
 Masina citireMasinaFisier(FILE* file) {
