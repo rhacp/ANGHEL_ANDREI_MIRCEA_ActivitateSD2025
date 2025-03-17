@@ -167,7 +167,7 @@
 //
 //int main() {
 //
-//	FILE* file = fopen("D:\\Coding\\ASE\\SD_C\\ANGHEL_ANDREI_MIRCEA_ActivitateSD2025\\ANGHEL_ANDREI_MIRCEA_ActivitateSD2025\\Course\\Course2\\masini.txt", "r");
+//	FILE* file = fopen("D:\\Coding\\ASE\\SD_C\\ANGHEL_ANDREI_MIRCEA_ActivitateSD2025\\ANGHEL_ANDREI_MIRCEA_ActivitateSD2025\\Practice\\Practice1\\masini.txt", "r");
 //	Masina firstMasina = citireMasinaFisier(file);
 //	afisareMasina(firstMasina);
 //
@@ -176,7 +176,7 @@
 //
 //	int nrMasiniCitite = 0;
 //
-//	Masina* vectorMasini = citireVectorMasiniFisier("D:\\Coding\\ASE\\SD_C\\ANGHEL_ANDREI_MIRCEA_ActivitateSD2025\\ANGHEL_ANDREI_MIRCEA_ActivitateSD2025\\Course\\Course2\\masini.txt", &nrMasiniCitite);
+//	Masina* vectorMasini = citireVectorMasiniFisier("D:\\Coding\\ASE\\SD_C\\ANGHEL_ANDREI_MIRCEA_ActivitateSD2025\\ANGHEL_ANDREI_MIRCEA_ActivitateSD2025\\Practice\\Practice1\\masini.txt", &nrMasiniCitite);
 //	afisareVectorMasini(vectorMasini, nrMasiniCitite);
 //
 //	printf("\n\n");

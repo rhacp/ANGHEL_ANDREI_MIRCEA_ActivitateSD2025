@@ -20,11 +20,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Course\Course1\App.c" />
-    <ClCompile Include="Course\Course2\App.c" />
-    <ClCompile Include="Course\Course3\App.c" />
+    <ClCompile Include="Practice\Practice1\App.c" />
+    <ClCompile Include="Practice\Practice2\App.c" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="Course\Course2\masini.txt" />
+    <Text Include="Practice\Practice1\masini.txt" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

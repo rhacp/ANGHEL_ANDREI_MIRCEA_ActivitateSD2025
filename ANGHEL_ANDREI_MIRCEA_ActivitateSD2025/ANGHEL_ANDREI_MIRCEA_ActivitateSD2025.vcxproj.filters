@@ -14,36 +14,39 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="Course\Course2">
-      <UniqueIdentifier>{7c5a2d5b-4939-4379-ae9a-e1f6f1fe6812}</UniqueIdentifier>
+    <Filter Include="Practice\Practice2">
+      <UniqueIdentifier>{03c20217-ef3e-4ec1-b4f2-2dda37638367}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Course\Course2\Source Files">
-      <UniqueIdentifier>{e992bf1b-c32f-4003-bbdd-00849fa87712}</UniqueIdentifier>
+    <Filter Include="Practice\Practice1">
+      <UniqueIdentifier>{e45c716f-9546-4e18-a32b-7834d64fe111}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Course\Course2\Resource Files">
+    <Filter Include="Practice\Practice1\Resource Files">
       <UniqueIdentifier>{fb2f07f4-22f7-4c92-85ae-db9778af048b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Course\Course3">
-      <UniqueIdentifier>{fd79e5cd-1142-4d62-9ff7-554c65a0c69d}</UniqueIdentifier>
+    <Filter Include="Practice\Practice1\Source Files">
+      <UniqueIdentifier>{e992bf1b-c32f-4003-bbdd-00849fa87712}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Course\Course3\Source Files">
+    <Filter Include="Practice\Practice2\Source Files">
       <UniqueIdentifier>{31b459ac-4778-45f1-b2f4-9f1e6dd847da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Course\Course4">
+      <UniqueIdentifier>{fd79e5cd-1142-4d62-9ff7-554c65a0c69d}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Course\Course1\App.c">
       <Filter>Course\Course1\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Course\Course2\App.c">
-      <Filter>Course\Course2\Source Files</Filter>
+    <ClCompile Include="Practice\Practice1\App.c">
+      <Filter>Practice\Practice1\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Course\Course3\App.c">
-      <Filter>Course\Course3\Source Files</Filter>
+    <ClCompile Include="Practice\Practice2\App.c">
+      <Filter>Practice\Practice2\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="Course\Course2\masini.txt">
-      <Filter>Course\Course2\Resource Files</Filter>
+    <Text Include="Practice\Practice1\masini.txt">
+      <Filter>Practice\Practice1\Resource Files</Filter>
     </Text>
   </ItemGroup>
 </Project>

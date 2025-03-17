@@ -3,7 +3,6 @@
 #include <stdlib.h>
 #include <string.h>
 #include <malloc.h>
-#define main    SDL_main
 
 //trebuie sa folositi fisierul masini.txt
 //sau va creati un alt fisier cu alte date
@@ -155,11 +154,10 @@ float calculeazaPretulMasinilorUnuiSofer(/*lista masini*/ const char* numeSofer)
 	return 0;
 }
 
-#undef main
 int main() {
 
 	Nod* cap = NULL;
-	cap = citireListaMasiniDinFisier("D:\\Coding\\ASE\\SD_C\\ANGHEL_ANDREI_MIRCEA_ActivitateSD2025\\ANGHEL_ANDREI_MIRCEA_ActivitateSD2025\\Course\\Course2\\masini.txt");
+	cap = citireListaMasiniDinFisier("D:\\Coding\\ASE\\SD_C\\ANGHEL_ANDREI_MIRCEA_ActivitateSD2025\\ANGHEL_ANDREI_MIRCEA_ActivitateSD2025\\Practice\\Practice1\\masini.txt");
 
 	afisareListaMasini(cap);
 
