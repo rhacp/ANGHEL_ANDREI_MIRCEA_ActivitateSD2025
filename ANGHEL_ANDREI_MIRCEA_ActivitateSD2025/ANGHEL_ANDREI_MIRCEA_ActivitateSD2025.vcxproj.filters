@@ -32,6 +32,9 @@
     <Filter Include="Course\Course4">
       <UniqueIdentifier>{fd79e5cd-1142-4d62-9ff7-554c65a0c69d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Course\Course4\Source Files">
+      <UniqueIdentifier>{65ee2a9c-55b6-41fe-9ce6-3f56cc39a857}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Course\Course1\App.c">
@@ -42,6 +45,9 @@
     </ClCompile>
     <ClCompile Include="Practice\Practice2\App.c">
       <Filter>Practice\Practice2\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Course\Course4\App.c">
+      <Filter>Course\Course4\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

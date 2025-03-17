@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Course\Course1\App.c" />
+    <ClCompile Include="Course\Course4\App.c" />
     <ClCompile Include="Practice\Practice1\App.c" />
     <ClCompile Include="Practice\Practice2\App.c" />
   </ItemGroup>
