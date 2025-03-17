@@ -37,7 +37,7 @@
     <ClCompile Include="Course\Course2\App.c">
       <Filter>Course\Course2\Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="App.c">
+    <ClCompile Include="Course\Course3\App.c">
       <Filter>Course\Course3\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
