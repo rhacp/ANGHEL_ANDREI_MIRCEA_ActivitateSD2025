@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="App.c" />
     <ClCompile Include="Course\Course1\App.c" />
     <ClCompile Include="Course\Course2\App.c" />
   </ItemGroup>
