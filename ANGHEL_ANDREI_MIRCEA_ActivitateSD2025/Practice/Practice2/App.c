@@ -201,9 +201,18 @@ void stergeMasiniDinSeria(Nod** cap, const char* serieCautata) {
 	}
 }
 
-float calculeazaPretulMasinilorUnuiSofer(/*lista masini*/ const char* numeSofer) {
+float calculeazaPretulMasinilorUnuiSofer(Nod* cap, const char* numeSofer) {
 	//calculeaza pretul tuturor masinilor unui sofer.
-	return 0;
+	float sum = 0;
+
+	while (cap) {
+		if (strcmp(cap->masina.numeSofer, numeSofer) == 0) {
+			sum += cap->masina.pret;
+		}
+		cap = cap->next;
+	}
+
+	return sum;
 }
 
 #undef main
@@ -250,6 +259,11 @@ int main() {
 	printf("--------------------------------------------\n\n");
 
 	printf("Pretul mediu: %.2f", calculeazaPretMediu(cap));
+
+	printf("\n\n");
+	printf("--------------------------------------------\n\n");
+
+	printf("Pretul masinilor soferului Ionescu: %.2f", calculeazaPretulMasinilorUnuiSofer(cap, "Ionescu"));
 
 	printf("\n\n");
 	printf("--------------------------------------------\n\n");
